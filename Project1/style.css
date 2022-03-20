@@ -1,0 +1,28 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu','san-serif';
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url('https://www.simplybusiness.co.uk/static/112822ae935f13af17eff58dddc79cb7/4df68/carpenter.webp') no-repeat center center/cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(30px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
